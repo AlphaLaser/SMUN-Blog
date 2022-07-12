@@ -1,0 +1,1 @@
+import{w as s}from"./writeEffect-9e66fc00.js";import{a as c}from"./animationSetup-89080e9f.js";import"./index-354bd306.js";const i=t=>t.forEach(e=>e.currentNode.textContent=""),d=async(t,e)=>{const{options:o,elements:n}=c(t,e);i(n);for(const a of n)await s(a,o),a.currentNode.classList.replace("typing","finished-typing");o.dispatch("done")};export{d as default};
