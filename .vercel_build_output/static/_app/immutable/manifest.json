@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-5862563a.js",
+    "file": "start-0fe0236e.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -11,7 +11,7 @@
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/blog_temp.svelte",
-      "src/routes/cartoonists.svelte",
+      "src/routes/cartoons.svelte",
       "src/routes/committees.svelte",
       "src/routes/ecofin.svelte",
       "src/routes/ecofin_blog_1.svelte",
@@ -20,15 +20,15 @@
       "src/routes/icr.svelte",
       "src/routes/index.svelte",
       "src/routes/interpol.svelte",
-      "src/routes/journalists.svelte",
-      "src/routes/photographers.svelte",
+      "src/routes/journalism.svelte",
+      "src/routes/photographs.svelte",
       "src/routes/rs.svelte",
       "src/routes/scf.svelte",
       "src/routes/team.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-b893a598.js",
+    "file": "pages/__layout.svelte-7f3b93a5.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -36,7 +36,7 @@
       "_index-fb74600a.js"
     ],
     "css": [
-      "assets/pages/__layout.svelte-f14fbc55.css"
+      "assets/pages/__layout.svelte-08f262e4.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -60,42 +60,47 @@
       "assets/pages/blog_temp.svelte-992e2543.css"
     ]
   },
-  "src/routes/cartoonists.svelte": {
-    "file": "pages/cartoonists.svelte-0be5a50a.js",
-    "src": "src/routes/cartoonists.svelte",
+  "src/routes/cartoons.svelte": {
+    "file": "pages/cartoons.svelte-0d9ec880.js",
+    "src": "src/routes/cartoons.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
-      "_Navbar-0bd994f3.js"
+      "_Navbar-0bd994f3.js",
+      "_Image-3906a4cd.js"
+    ],
+    "css": [
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/committees.svelte": {
-    "file": "pages/committees.svelte-544c2a72.js",
+    "file": "pages/committees.svelte-17acbc9d.js",
     "src": "src/routes/committees.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
-      "_Footer-dec73bbe.js",
+      "_Footer-c7b19d37.js",
       "_Navbar-0bd994f3.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/ecofin.svelte": {
-    "file": "pages/ecofin.svelte-fc0a57ad.js",
+    "file": "pages/ecofin.svelte-ffe60ed0.js",
     "src": "src/routes/ecofin.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
-      "_Image-6f004635.js"
+      "_Blog-d4f12f7c.js",
+      "_Image-3906a4cd.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/ecofin_blog_1.svelte": {
@@ -109,49 +114,52 @@
     ]
   },
   "src/routes/eseu.svelte": {
-    "file": "pages/eseu.svelte-912074b7.js",
+    "file": "pages/eseu.svelte-64b46616.js",
     "src": "src/routes/eseu.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
-      "_Image-6f004635.js"
+      "_Blog-d4f12f7c.js",
+      "_Image-3906a4cd.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/hrc.svelte": {
-    "file": "pages/hrc.svelte-3b857e66.js",
+    "file": "pages/hrc.svelte-517ea1db.js",
     "src": "src/routes/hrc.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
-      "_Image-6f004635.js"
+      "_Blog-d4f12f7c.js",
+      "_Image-3906a4cd.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/icr.svelte": {
-    "file": "pages/icr.svelte-8743239d.js",
+    "file": "pages/icr.svelte-e8de6b8c.js",
     "src": "src/routes/icr.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
-      "_Image-6f004635.js"
+      "_Blog-d4f12f7c.js",
+      "_Image-3906a4cd.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-48adaa61.js",
+    "file": "pages/index.svelte-9ca60085.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -159,7 +167,7 @@
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
       "_preload-helper-60cab3ee.js",
-      "_Footer-dec73bbe.js"
+      "_Footer-c7b19d37.js"
     ],
     "dynamicImports": [
       "node_modules/svelte-typewriter/src/modes/concurrent.js",
@@ -170,86 +178,94 @@
       "node_modules/svelte-typewriter/src/modes/scramble.js"
     ],
     "css": [
-      "assets/pages/index.svelte-9e9edbc2.css"
+      "assets/pages/index.svelte-2912c149.css"
     ]
   },
   "src/routes/interpol.svelte": {
-    "file": "pages/interpol.svelte-2d8f24e8.js",
+    "file": "pages/interpol.svelte-6997fae2.js",
     "src": "src/routes/interpol.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
-      "_Image-6f004635.js"
+      "_Blog-d4f12f7c.js",
+      "_Image-3906a4cd.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
-  "src/routes/journalists.svelte": {
-    "file": "pages/journalists.svelte-608d6622.js",
-    "src": "src/routes/journalists.svelte",
+  "src/routes/journalism.svelte": {
+    "file": "pages/journalism.svelte-7c61b1e3.js",
+    "src": "src/routes/journalism.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
-      "_Navbar-0bd994f3.js"
+      "_Navbar-0bd994f3.js",
+      "_Blog-d4f12f7c.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
-  "src/routes/photographers.svelte": {
-    "file": "pages/photographers.svelte-ea0e21de.js",
-    "src": "src/routes/photographers.svelte",
+  "src/routes/photographs.svelte": {
+    "file": "pages/photographs.svelte-4d08c39a.js",
+    "src": "src/routes/photographs.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
-      "_Navbar-0bd994f3.js"
+      "_Navbar-0bd994f3.js",
+      "_Image-3906a4cd.js"
+    ],
+    "css": [
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/rs.svelte": {
-    "file": "pages/rs.svelte-ec9447ce.js",
+    "file": "pages/rs.svelte-9ce57828.js",
     "src": "src/routes/rs.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
-      "_Image-6f004635.js"
+      "_Blog-d4f12f7c.js",
+      "_Image-3906a4cd.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/scf.svelte": {
-    "file": "pages/scf.svelte-6784f11b.js",
+    "file": "pages/scf.svelte-5becb93d.js",
     "src": "src/routes/scf.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
       "_Navbar-0bd994f3.js",
-      "_Image-6f004635.js"
+      "_Blog-d4f12f7c.js",
+      "_Image-3906a4cd.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "src/routes/team.svelte": {
-    "file": "pages/team.svelte-40161282.js",
+    "file": "pages/team.svelte-b05ace6f.js",
     "src": "src/routes/team.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_index-fb74600a.js",
-      "_Footer-dec73bbe.js",
+      "_Footer-c7b19d37.js",
       "_Navbar-0bd994f3.js"
     ],
     "css": [
-      "assets/pages/interpol.svelte-6c44ce50.css"
+      "assets/pages/cartoons.svelte-11667222.css"
     ]
   },
   "_index-fb74600a.js": {
@@ -267,14 +283,23 @@
       "assets/Navbar-a31798b0.css"
     ]
   },
-  "_Footer-dec73bbe.js": {
-    "file": "chunks/Footer-dec73bbe.js",
+  "_Image-3906a4cd.js": {
+    "file": "chunks/Image-3906a4cd.js",
     "imports": [
       "_index-fb74600a.js"
     ]
   },
-  "_Image-6f004635.js": {
-    "file": "chunks/Image-6f004635.js",
+  "_Footer-c7b19d37.js": {
+    "file": "chunks/Footer-c7b19d37.js",
+    "imports": [
+      "_index-fb74600a.js"
+    ],
+    "css": [
+      "assets/Footer-d3e02dd2.css"
+    ]
+  },
+  "_Blog-d4f12f7c.js": {
+    "file": "chunks/Blog-d4f12f7c.js",
     "imports": [
       "_index-fb74600a.js"
     ]

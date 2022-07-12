@@ -18,12 +18,12 @@
           </Typewriter>
           
         </h1>
-        <p class="mb-8 text-base leading-relaxed">The Effusion, the official blog of the United Nations Correspondents' Association is a manifestation of the talent this committee boasts of; the exceptional minds, pens, brushes and lenses. The blog serves as an archive that preserves each delegate's work while providing a guiding perspective to every participant at SMUN. We are also certain that reflecting on one's work will provide as much insight as it will provide opportunities for improvement.</p>
+        <p class="mb-8 text-stone-800 text-base leading-relaxed">The Effusion, the official blog of the United Nations Correspondents' Association is a manifestation of the talent this committee boasts of; the exceptional minds, pens, brushes and lenses. The blog serves as an archive that preserves each delegate's work while providing a guiding perspective to every participant at SMUN. We are also certain that reflecting on one's work will provide as much insight as it will provide opportunities for improvement.</p>
         <div class="flex justify-center">
         </div>
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/500x400">
+        <img class="object-cover object-center rounded" alt="hero" src="about_us.png">
       </div>
     </div>
   </section>

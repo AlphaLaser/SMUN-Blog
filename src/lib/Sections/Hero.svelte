@@ -18,7 +18,7 @@
 
     .icon {
     position:relative;
-    bottom:50px;
+    bottom:80px;
     color: #4B5563;
     width: 40px;
     height: 40px;

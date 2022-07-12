@@ -16,7 +16,7 @@
 
 <br><br>
 <center>
-  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">ECONOMIC AND FINANCIAL COMMITTEE</h1>
+  <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">THE ROMAN SENATE</h1>
 </center>
 
 

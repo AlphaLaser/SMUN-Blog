@@ -5137,7 +5137,7 @@ function create_ssr_component(fn) {
       return {
         html,
         css: {
-          code: Array.from(result.css).map((css14) => css14.code).join("\n"),
+          code: Array.from(result.css).map((css17) => css17.code).join("\n"),
           map: null
         },
         head: result.title + result.head
@@ -5201,9 +5201,9 @@ var init__ = __esm({
   ".svelte-kit/output/server/nodes/0.js"() {
     init_layout_svelte();
     index = 0;
-    file2 = "pages/__layout.svelte-b893a598.js";
-    imports = ["pages/__layout.svelte-b893a598.js", "chunks/index-fb74600a.js"];
-    stylesheets = ["assets/pages/__layout.svelte-f14fbc55.css"];
+    file2 = "pages/__layout.svelte-7f3b93a5.js";
+    imports = ["pages/__layout.svelte-7f3b93a5.js", "chunks/index-fb74600a.js"];
+    stylesheets = ["assets/pages/__layout.svelte-08f262e4.css"];
   }
 });
 
@@ -5284,21 +5284,26 @@ var init_Navbar_cf4a361f = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Footer-8be1e75a.js
-var Footer;
-var init_Footer_8be1e75a = __esm({
-  ".svelte-kit/output/server/chunks/Footer-8be1e75a.js"() {
+// .svelte-kit/output/server/chunks/Footer-2e84526c.js
+var css2, Footer;
+var init_Footer_2e84526c = __esm({
+  ".svelte-kit/output/server/chunks/Footer-2e84526c.js"() {
     init_index_3a325815();
+    css2 = {
+      code: "#trial.svelte-1s1ibxl{background-color:#0c4a6e}",
+      map: null
+    };
     Footer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `<footer class="${"text-gray-600 body-font bg-stone-200"}"><div class="${"container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"}"><a class="${"flex title-font font-medium items-center md:justify-start justify-center text-gray-900"}"><img src="${"Logos/school.png"}" alt="${"smun"}" class="${"smun"}" width="${"40px"}">
+      $$result.css.add(css2);
+      return `<footer class="${"text-white body-font "}"><div id="${"trial"}" class="${"container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col svelte-1s1ibxl"}"><a class="${"flex title-font font-medium items-center md:justify-start justify-center text-white"}"><img src="${"Logos/school.png"}" alt="${"smun"}" class="${"smun"}" width="${"40px"}">
       <span class="${"ml-3 text-xl"}">Sanskriti School</span></a>
-    <p class="${"text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"}">2022 | Made by 
-      <a href="${"https://github.com/AlphaLaser"}" class="${"text-gray-600 ml-1"}" rel="${"noopener noreferrer"}" target="${"_blank"}"><u>Adit Magotra
+    <p class="${"text-sm text-white sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"}">2022 | Made by 
+      <a href="${"https://github.com/AlphaLaser"}" class="${"text-white ml-1"}" rel="${"noopener noreferrer"}" target="${"_blank"}"><u>Adit Magotra
       </u></a></p>
-    <span class="${"inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"}"><a class="${"text-gray-500"}"><svg fill="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><path d="${"M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"}"></path></svg></a>
-      <a class="${"ml-3 text-gray-500"}"><svg fill="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><path d="${"M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"}"></path></svg></a>
-      <a class="${"ml-3 text-gray-500"}"><svg fill="${"none"}" stroke="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><rect width="${"20"}" height="${"20"}" x="${"2"}" y="${"2"}" rx="${"5"}" ry="${"5"}"></rect><path d="${"M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"}"></path></svg></a>
-      <a class="${"ml-3 text-gray-500"}"><svg fill="${"currentColor"}" stroke="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"0"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><path stroke="${"none"}" d="${"M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"}"></path><circle cx="${"4"}" cy="${"4"}" r="${"2"}" stroke="${"none"}"></circle></svg></a></span></div></footer>`;
+    <span class="${"inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"}"><a class="${"text-white"}"><svg fill="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><path d="${"M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"}"></path></svg></a>
+      <a class="${"ml-3 text-white"}"><svg fill="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><path d="${"M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"}"></path></svg></a>
+      <a class="${"ml-3 text-white"}"><svg fill="${"none"}" stroke="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><rect width="${"20"}" height="${"20"}" x="${"2"}" y="${"2"}" rx="${"5"}" ry="${"5"}"></rect><path d="${"M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"}"></path></svg></a>
+      <a class="${"ml-3 text-white"}"><svg fill="${"currentColor"}" stroke="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"0"}" class="${"w-5 h-5"}" viewBox="${"0 0 24 24"}"><path stroke="${"none"}" d="${"M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"}"></path><circle cx="${"4"}" cy="${"4"}" r="${"2"}" stroke="${"none"}"></circle></svg></a></span></div></footer>`;
     });
   }
 });
@@ -5668,12 +5673,12 @@ var index_svelte_exports = {};
 __export(index_svelte_exports, {
   default: () => Routes
 });
-var css$5, Typewriter, css$4, Intro, css$3, IconBase, IoIosArrowDown, css$2, Hero, Infobox, css$1, Content, css2, Routes;
+var css$5, Typewriter, css$4, Intro, css$3, IconBase, IoIosArrowDown, css$2, Hero, Infobox, css$1, Content, css3, Routes;
 var init_index_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/index.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Footer_8be1e75a();
+    init_Footer_2e84526c();
     css$5 = {
       code: "@keyframes svelte-12nvf3j-cursorFade{0%,100%{opacity:1}50%{opacity:0}}.typewriter-container.svelte-12nvf3j *:not(.typing):not(.finished-typing):not([data-static]){display:none}.typewriter-container.svelte-12nvf3j .finished-typing::after{content:none}.cursor.svelte-12nvf3j .typing::after{content:'';width:var(--cursor-width, 1ch);height:2ch;display:inline-block;vertical-align:text-top;background-color:var(--cursor-color, black);animation:svelte-12nvf3j-cursorFade 1.25s infinite}",
       map: null
@@ -5772,9 +5777,9 @@ ${disabled ? `${slots.default ? slots.default({}) : ``}` : `${function(__value) 
           `;
         }
       })}</h1>
-        <p class="${"mb-8 text-base leading-relaxed"}">The Effusion, the official blog of the United Nations Correspondents&#39; Association is a manifestation of the talent this committee boasts of; the exceptional minds, pens, brushes and lenses. The blog serves as an archive that preserves each delegate&#39;s work while providing a guiding perspective to every participant at SMUN. We are also certain that reflecting on one&#39;s work will provide as much insight as it will provide opportunities for improvement.</p>
+        <p class="${"mb-8 text-stone-800 text-base leading-relaxed"}">The Effusion, the official blog of the United Nations Correspondents&#39; Association is a manifestation of the talent this committee boasts of; the exceptional minds, pens, brushes and lenses. The blog serves as an archive that preserves each delegate&#39;s work while providing a guiding perspective to every participant at SMUN. We are also certain that reflecting on one&#39;s work will provide as much insight as it will provide opportunities for improvement.</p>
         <div class="${"flex justify-center"}"></div></div>
-      <div class="${"lg:max-w-lg lg:w-full md:w-1/2 w-5/6"}"><img class="${"object-cover object-center rounded"}" alt="${"hero"}" src="${"https://dummyimage.com/500x400"}"></div></div></section></div>`;
+      <div class="${"lg:max-w-lg lg:w-full md:w-1/2 w-5/6"}"><img class="${"object-cover object-center rounded"}" alt="${"hero"}" src="${"about_us.png"}"></div></div></section></div>`;
     });
     css$3 = {
       code: "svg.svelte-c8tyih{stroke:currentColor;fill:currentColor;stroke-width:0;width:100%;height:auto;max-height:100%}",
@@ -5798,24 +5803,30 @@ ${disabled ? `${slots.default ? slots.default({}) : ``}` : `${function(__value) 
       })}`;
     });
     css$2 = {
-      code: "body{background-image:url('/bge.jpg')}.hero.svelte-1fgrgof{height:100vh;overflow:hidden}.icon.svelte-1fgrgof{position:relative;bottom:50px;color:#4B5563;width:40px;height:40px;cursor:pointer}",
+      code: "body{background-image:url('/bge.jpg')}.hero.svelte-64xlq{height:100vh;overflow:hidden}.icon.svelte-64xlq{position:relative;bottom:80px;color:#4B5563;width:40px;height:40px;cursor:pointer}",
       map: null
     };
     Hero = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       $$result.css.add(css$2);
-      return `<section class="${"hero svelte-1fgrgof"}">${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
+      return `<section class="${"hero svelte-64xlq"}">${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
     ${validate_component(Intro, "Intro").$$render($$result, {}, {}, {})}
-    <center><div class="${"icon svelte-1fgrgof"}">${validate_component(IoIosArrowDown, "IoIosArrowDown").$$render($$result, {}, {}, {})}</div></center></section>`;
+    <center><div class="${"icon svelte-64xlq"}">${validate_component(IoIosArrowDown, "IoIosArrowDown").$$render($$result, {}, {}, {})}</div></center></section>`;
     });
     Infobox = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `<section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-col"}"><div class="${"h-1 bg-gray-200 rounded overflow-hidden"}"><div class="${"w-24 h-full bg-sky-900"}"></div></div>
-        <div class="${"flex flex-wrap sm:flex-row flex-col py-6 mb-12"}"><h1 class="${"sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0"}">Our Backbone</h1></div></div>
+        <div class="${"flex flex-wrap sm:flex-row flex-col py-6 mb-12"}"><h1 class="${"sm:w-2/5 text-sky-900 font-medium title-font text-2xl mb-2 sm:mb-0"}">Sub Committees</h1></div></div>
       <div class="${"flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 "}"><div class="${"p-4 md:w-1/3 sm:mb-0 mb-6"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><img alt="${"content"}" class="${"object-cover object-center h-full w-full"}" src="${"journalism.jpeg"}"></div>
-          <h2 class="${"text-xl font-medium title-font text-gray-900 mt-5"}">Journalists</h2></div>
+          <h2 class="${"text-xl font-medium title-font text-gray-900 mt-5"}">Journalism</h2>
+          <a class="${"mt-3 text-sky-900 inline-flex items-center"}" href="${"/journalism"}">View Articles
+            <svg fill="${"none"}" stroke="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-4 h-4 ml-2"}" viewBox="${"0 0 24 24"}"><path d="${"M5 12h14M12 5l7 7-7 7"}"></path></svg></a></div>
         <div class="${"p-4 md:w-1/3 sm:mb-0 mb-6"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><img alt="${"content"}" class="${"object-cover object-center h-full w-full"}" src="${"cartoonist.jpeg"}"></div>
-          <h2 class="${"text-xl font-medium title-font text-gray-900 mt-5"}">Cartoonists</h2></div>
+          <h2 class="${"text-xl font-medium title-font text-gray-900 mt-5"}">Cartoons</h2>
+          <a class="${"mt-3 text-sky-900 inline-flex items-center"}" href="${"/cartoons"}">View Cartoons
+            <svg fill="${"none"}" stroke="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-4 h-4 ml-2"}" viewBox="${"0 0 24 24"}"><path d="${"M5 12h14M12 5l7 7-7 7"}"></path></svg></a></div>
         <div class="${"p-4 md:w-1/3 sm:mb-0 mb-6"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><img alt="${"content"}" class="${"object-cover object-center h-full w-full"}" src="${"photography.jpeg"}"></div>
-          <h2 class="${"text-xl font-medium title-font text-gray-900 mt-5"}">Photographers</h2></div></div></div></section>`;
+          <h2 class="${"text-xl font-medium title-font text-gray-900 mt-5"}" href="${"/photographs"}">Photographs</h2>
+          <a class="${"mt-3 text-sky-900 inline-flex items-center"}">View Photos
+            <svg fill="${"none"}" stroke="${"currentColor"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}" stroke-width="${"2"}" class="${"w-4 h-4 ml-2"}" viewBox="${"0 0 24 24"}"><path d="${"M5 12h14M12 5l7 7-7 7"}"></path></svg></a></div></div></div></section>`;
     });
     css$1 = {
       code: ".content.svelte-cafn82{height:100vh;margin:0px}",
@@ -5826,12 +5837,12 @@ ${disabled ? `${slots.default ? slots.default({}) : ``}` : `${function(__value) 
       return `<section class="${"content svelte-cafn82"}">${validate_component(Infobox, "Infobox").$$render($$result, {}, {}, {})}
     ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}</section>`;
     });
-    css2 = {
+    css3 = {
       code: "body{background-image:url('/bge.jpg')}:root::-webkit-scrollbar{width:10px}:root::-webkit-scrollbar-track{background:#f1f1f1}:root::-webkit-scrollbar-thumb{background:#888;border-radius:100px}:root::-webkit-scrollbar-thumb:hover{background:#555}",
       map: null
     };
     Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css2);
+      $$result.css.add(css3);
       return `
 ${validate_component(Hero, "Hero").$$render($$result, {}, {}, {})}
 ${validate_component(Content, "Content").$$render($$result, {}, {}, {})}`;
@@ -5853,9 +5864,9 @@ var init__3 = __esm({
   ".svelte-kit/output/server/nodes/10.js"() {
     init_index_svelte();
     index3 = 10;
-    file4 = "pages/index.svelte-48adaa61.js";
-    imports3 = ["pages/index.svelte-48adaa61.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/preload-helper-60cab3ee.js", "chunks/Footer-dec73bbe.js"];
-    stylesheets3 = ["assets/pages/index.svelte-9e9edbc2.css", "assets/Navbar-a31798b0.css"];
+    file4 = "pages/index.svelte-9ca60085.js";
+    imports3 = ["pages/index.svelte-9ca60085.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/preload-helper-60cab3ee.js", "chunks/Footer-c7b19d37.js"];
+    stylesheets3 = ["assets/pages/index.svelte-2912c149.css", "assets/Navbar-a31798b0.css", "assets/Footer-d3e02dd2.css"];
   }
 });
 
@@ -5864,16 +5875,16 @@ var blog_temp_svelte_exports = {};
 __export(blog_temp_svelte_exports, {
   default: () => Blog_temp
 });
-var css3, Blog_temp;
+var css4, Blog_temp;
 var init_blog_temp_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/blog_temp.svelte.js"() {
     init_index_3a325815();
-    css3 = {
+    css4 = {
       code: '.svelte-1xamj2w{box-sizing:border-box;-webkit-print-color-adjust:exact}body.svelte-1xamj2w{margin:0;padding:0}@media only screen{body.svelte-1xamj2w{margin:2em auto;max-width:900px;color:rgb(55, 53, 47)}}body.svelte-1xamj2w{line-height:1.5;white-space:pre-wrap}h1.svelte-1xamj2w{letter-spacing:-0.01em;line-height:1.2;font-weight:600;margin-bottom:0}.page-title.svelte-1xamj2w{font-size:2.5rem;font-weight:700;margin-top:0;margin-bottom:0.75em}h1.svelte-1xamj2w{font-size:1.875rem;margin-top:1.875rem}.callout.svelte-1xamj2w{border-radius:3px;padding:1rem}figure.svelte-1xamj2w{margin:1.25em 0;page-break-inside:avoid}@media only print{}@page{margin:1in}.icon.svelte-1xamj2w{display:inline-block;max-width:1.2em;max-height:1.2em;text-decoration:none;vertical-align:text-bottom;margin-right:0.5em}p.svelte-1xamj2w{margin-top:0.5em;margin-bottom:0.5em}blockquote.svelte-1xamj2w{font-size:1.25em;margin:1em 0;padding-left:1em;border-left:3px solid rgb(55, 53, 47)}.sans.svelte-1xamj2w{font-family:ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"}.block-color-gray_background.svelte-1xamj2w{background:rgba(241, 241, 239, 1)}',
       map: null
     };
     Blog_temp = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css3);
+      $$result.css.add(css4);
       return `<body class="${"svelte-1xamj2w"}"><article id="${"b58b20c0-b829-4682-ab17-d58381a6e555"}" class="${"page sans svelte-1xamj2w"}"><header class="${"svelte-1xamj2w"}"><h1 class="${"page-title svelte-1xamj2w"}">Designing an Opening Speech</h1></header><div class="${"page-body svelte-1xamj2w"}"><p id="${"345b766c-eb36-4050-a065-d4d6e09b93b7"}" class="${" svelte-1xamj2w"}"></p><figure class="${"block-color-gray_background callout svelte-1xamj2w"}" style="${"white-space:pre-wrap;display:flex"}" id="${"53c38f9c-cbec-4eef-a28a-b54855ab7f53"}"><div style="${"font-size:1.5em"}" class="${"svelte-1xamj2w"}"><span class="${"icon svelte-1xamj2w"}">\u2139\uFE0F</span></div><div style="${"width:100%"}" class="${"svelte-1xamj2w"}">Sample Text</div></figure><p id="${"d0d2b2c8-dc56-47c6-acb0-dfccc5676139"}" class="${" svelte-1xamj2w"}"></p><p id="${"d934b308-27bb-4940-9440-b246f4364b80"}" class="${" svelte-1xamj2w"}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p id="${"b9b5b1ec-63fb-4acb-bf4e-0148fea0aaba"}" class="${" svelte-1xamj2w"}"></p><blockquote id="${"5c1cac04-84da-477e-8cc4-6000525a125c"}" class="${" svelte-1xamj2w"}">Weird Quote</blockquote><p id="${"2ceaccb9-ec87-4a63-a7c0-be53e2f1d59e"}" class="${" svelte-1xamj2w"}"></p><p id="${"8cb7fa18-6b7f-4286-89d9-90a53bb3453f"}" class="${" svelte-1xamj2w"}">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div></article></body>`;
     });
   }
@@ -5899,47 +5910,57 @@ var init__4 = __esm({
   }
 });
 
-// .svelte-kit/output/server/entries/pages/cartoonists.svelte.js
-var cartoonists_svelte_exports = {};
-__export(cartoonists_svelte_exports, {
-  default: () => Cartoonists
+// .svelte-kit/output/server/chunks/Image-7a426ed3.js
+var Image;
+var init_Image_7a426ed3 = __esm({
+  ".svelte-kit/output/server/chunks/Image-7a426ed3.js"() {
+    init_index_3a325815();
+    Image = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      let { title = "Dummy Title" } = $$props;
+      let { arist = "Rick Astley" } = $$props;
+      let { img = "cartoonist.jpeg" } = $$props;
+      if ($$props.title === void 0 && $$bindings.title && title !== void 0)
+        $$bindings.title(title);
+      if ($$props.arist === void 0 && $$bindings.arist && arist !== void 0)
+        $$bindings.arist(arist);
+      if ($$props.img === void 0 && $$bindings.img && img !== void 0)
+        $$bindings.img(img);
+      return `<div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative h-80"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}"${add_attribute("src", img, 0)}>
+      <div class="${"px-8 py-12 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">${escape(title)}</h2>
+        <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">${escape(arist)}</h1></div></div></div>`;
+    });
+  }
 });
-var Cartoonists;
-var init_cartoonists_svelte = __esm({
-  ".svelte-kit/output/server/entries/pages/cartoonists.svelte.js"() {
+
+// .svelte-kit/output/server/entries/pages/cartoons.svelte.js
+var cartoons_svelte_exports = {};
+__export(cartoons_svelte_exports, {
+  default: () => Cartoons
+});
+var css5, Cartoons;
+var init_cartoons_svelte = __esm({
+  ".svelte-kit/output/server/entries/pages/cartoons.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    Cartoonists = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+    init_Image_7a426ed3();
+    css5 = {
+      code: "body{background-image:url('/bge.jpg')}",
+      map: null
+    };
+    Cartoons = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css5);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
-
-<section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-col text-center w-full mb-20"}"><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">Cartoons</h1>
-        <p class="${"lg:w-2/3 mx-auto leading-relaxed text-base"}">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven&#39;t heard of them man bun deep jianbing selfies heirloom.</p></div>
-      <div class="${"flex flex-wrap -m-4"}"><div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/600x360"}">
-            <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-              <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Shooting Stars</h1>
-              <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-        <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/601x361"}">
-            <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-              <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">The Catalyzer</h1>
-              <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-        <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/603x363"}">
-            <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-              <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">The 400 Blows</h1>
-              <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-        <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/602x362"}">
-            <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-              <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Neptune</h1>
-              <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-        <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/605x365"}">
-            <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-              <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Holden Caulfield</h1>
-              <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-        <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/606x366"}">
-            <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-              <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Alper Kamu</h1>
-              <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div></div></div></section>`;
+  <section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-col text-center w-full mb-20"}"><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 "}">Cartoons</h1></div>
+      <div class="${"flex flex-wrap -m-4"}">
+        
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}</div></div></section>`;
     });
   }
 });
@@ -5950,17 +5971,17 @@ __export(__exports5, {
   file: () => file6,
   imports: () => imports5,
   index: () => index5,
-  module: () => cartoonists_svelte_exports,
+  module: () => cartoons_svelte_exports,
   stylesheets: () => stylesheets5
 });
 var index5, file6, imports5, stylesheets5;
 var init__5 = __esm({
   ".svelte-kit/output/server/nodes/3.js"() {
-    init_cartoonists_svelte();
+    init_cartoons_svelte();
     index5 = 3;
-    file6 = "pages/cartoonists.svelte-0be5a50a.js";
-    imports5 = ["pages/cartoonists.svelte-0be5a50a.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js"];
-    stylesheets5 = ["assets/Navbar-a31798b0.css"];
+    file6 = "pages/cartoons.svelte-0d9ec880.js";
+    imports5 = ["pages/cartoons.svelte-0d9ec880.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-3906a4cd.js"];
+    stylesheets5 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -5969,55 +5990,55 @@ var committees_svelte_exports = {};
 __export(committees_svelte_exports, {
   default: () => Committees
 });
-var css4, Committees;
+var css6, Committees;
 var init_committees_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/committees.svelte.js"() {
     init_index_3a325815();
-    init_Footer_8be1e75a();
+    init_Footer_2e84526c();
     init_Navbar_cf4a361f();
-    css4 = {
+    css6 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Committees = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css4);
+      $$result.css.add(css6);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 <section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-wrap -mx-4 -mb-10 text-center"}"><div class="${"sm:w-1/2 mb-10 px-4"}"><div class="${"rounded-lg h-64 "}"><center><img alt="${"content"}" src="${"Logos/ECOFIN.png"}" width="${"470px"}"></center></div>
           <h2 class="${"title-font text-2xl font-medium text-gray-900 mt-6 mb-3"}">Economic and Financial Committee</h2>
-          <p class="${"leading-relaxed text-base"}">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="${"/ecofin"}"><button class="${"flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"}">Read More</button></a></div>
         <div class="${"sm:w-1/2 mb-10 px-4"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><center><img alt="${"content"}" src="${"Logos/Roman Senate.png"}" width="${"470px"}"></center></div>
           <h2 class="${"title-font text-2xl font-medium text-gray-900 mt-6 mb-3"}">The Roman Senate</h2>
-          <p class="${"leading-relaxed text-base"}">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="${"/rs"}"><button class="${"flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"}">Read More</button></a></div></div></div></section>
 
   <section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-15 mx-auto"}"><div class="${"flex flex-wrap -mx-4 -mb-10 text-center"}"><div class="${"sm:w-1/2 mb-10 px-4"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><center><img alt="${"content"}" src="${"Logos/INTERPOL.png"}" width="${"320px"}"></center></div>
           <h2 class="${"title-font text-2xl font-medium text-gray-900 mt-6 mb-3"}">International Criminal Police
             Organisation</h2>
-          <p class="${"leading-relaxed text-base"}">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="${"/interpol"}"><button class="${"flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"}">Read More</button></a></div>
         <div class="${"sm:w-1/2 mb-10 px-4"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><center><img alt="${"content"}" src="${"Logos/SCF.png"}" width="${"300px"}"></center></div>
           <h2 class="${"title-font text-2xl font-medium text-gray-900 mt-6 mb-3"}">Standing Committee on
             Finance</h2>
-          <p class="${"leading-relaxed text-base"}">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="${"/scf"}"><button class="${"flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"}">Read More</button></a></div></div></div></section>
 
   <section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"flex flex-wrap -mx-4 -mb-10 text-center"}"><div class="${"sm:w-1/2 mb-10 px-4"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><center><img alt="${"content"}" src="${"Logos/ESEU.png"}" width="${"350px"}"></center></div>
           <h2 class="${"title-font text-2xl font-medium text-gray-900 mt-6 mb-3"}">Emergency Session of the
             European Union</h2>
-          <p class="${"leading-relaxed text-base"}">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="${"/eseu"}"><button class="${"flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"}">Read More</button></a></div>
         <div class="${"sm:w-1/2 mb-10 px-4"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><center><img alt="${"content"}" src="${"Logos/ICR.png"}" width="${"470px"}"></center></div>
           <h2 class="${"title-font text-2xl font-medium text-gray-900 mt-6 mb-3"}">Imperial Council of the Mighty
             Russian Empire</h2>
-          <p class="${"leading-relaxed text-base"}">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="${"/icr"}"><button class="${"flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"}">Read More</button></a></div></div></div></section>
 
   <section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-15 mx-auto"}"><center><div class="${"sm:w-1/2 mb-10 px-4"}"><div class="${"rounded-lg h-64 overflow-hidden"}"><center><img alt="${"content"}" src="${"Logos/UNHRC.png"}" width="${"230px"}"></center></div>
           <h2 class="${"title-font text-2xl font-medium text-gray-900 mt-6 mb-3"}">United Nations Human 
             Rights Council</h2>
-          <p class="${"leading-relaxed text-base"}">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="${"/hrc"}"><button class="${"flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded"}">Read More</button></a></div></center></div></section>
 
   ${validate_component(Footer, "Footer").$$render($$result, {}, {}, {})}`;
@@ -6039,16 +6060,16 @@ var init__6 = __esm({
   ".svelte-kit/output/server/nodes/4.js"() {
     init_committees_svelte();
     index6 = 4;
-    file7 = "pages/committees.svelte-544c2a72.js";
-    imports6 = ["pages/committees.svelte-544c2a72.js", "chunks/index-fb74600a.js", "chunks/Footer-dec73bbe.js", "chunks/Navbar-0bd994f3.js"];
-    stylesheets6 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file7 = "pages/committees.svelte-17acbc9d.js";
+    imports6 = ["pages/committees.svelte-17acbc9d.js", "chunks/index-fb74600a.js", "chunks/Footer-c7b19d37.js", "chunks/Navbar-0bd994f3.js"];
+    stylesheets6 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Footer-d3e02dd2.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
-// .svelte-kit/output/server/chunks/Image-04d3bd9c.js
-var Blog, Image;
-var init_Image_04d3bd9c = __esm({
-  ".svelte-kit/output/server/chunks/Image-04d3bd9c.js"() {
+// .svelte-kit/output/server/chunks/Blog-0f12eb70.js
+var Blog;
+var init_Blog_0f12eb70 = __esm({
+  ".svelte-kit/output/server/chunks/Blog-0f12eb70.js"() {
     init_index_3a325815();
     Blog = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { date = "12 Jun 2019" } = $$props;
@@ -6073,20 +6094,6 @@ var init_Image_04d3bd9c = __esm({
     <a class="${"text-sky-900 inline-flex items-center mt-4"}"${add_attribute("href", link, 0)}>Read Blog
       <svg class="${"w-4 h-4 ml-2"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}" stroke-width="${"2"}" fill="${"none"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}"><path d="${"M5 12h14"}"></path><path d="${"M12 5l7 7-7 7"}"></path></svg></a></div></div>`;
     });
-    Image = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      let { title = "Dummy Title" } = $$props;
-      let { arist = "Rick Astley" } = $$props;
-      let { img = "cartoonist.jpeg" } = $$props;
-      if ($$props.title === void 0 && $$bindings.title && title !== void 0)
-        $$bindings.title(title);
-      if ($$props.arist === void 0 && $$bindings.arist && arist !== void 0)
-        $$bindings.arist(arist);
-      if ($$props.img === void 0 && $$bindings.img && img !== void 0)
-        $$bindings.img(img);
-      return `<div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative h-80"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}"${add_attribute("src", img, 0)}>
-      <div class="${"px-8 py-12 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">${escape(title)}</h2>
-        <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">${escape(arist)}</h1></div></div></div>`;
-    });
   }
 });
 
@@ -6095,18 +6102,19 @@ var ecofin_svelte_exports = {};
 __export(ecofin_svelte_exports, {
   default: () => Ecofin
 });
-var css5, Ecofin;
+var css7, Ecofin;
 var init_ecofin_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/ecofin.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Image_04d3bd9c();
-    css5 = {
+    init_Blog_0f12eb70();
+    init_Image_7a426ed3();
+    css7 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Ecofin = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css5);
+      $$result.css.add(css7);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
@@ -6160,9 +6168,9 @@ var init__7 = __esm({
   ".svelte-kit/output/server/nodes/5.js"() {
     init_ecofin_svelte();
     index7 = 5;
-    file8 = "pages/ecofin.svelte-fc0a57ad.js";
-    imports7 = ["pages/ecofin.svelte-fc0a57ad.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-6f004635.js"];
-    stylesheets7 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file8 = "pages/ecofin.svelte-ffe60ed0.js";
+    imports7 = ["pages/ecofin.svelte-ffe60ed0.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js", "chunks/Image-3906a4cd.js"];
+    stylesheets7 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -6225,24 +6233,25 @@ var eseu_svelte_exports = {};
 __export(eseu_svelte_exports, {
   default: () => Eseu
 });
-var css6, Eseu;
+var css8, Eseu;
 var init_eseu_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/eseu.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Image_04d3bd9c();
-    css6 = {
+    init_Blog_0f12eb70();
+    init_Image_7a426ed3();
+    css8 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Eseu = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css6);
+      $$result.css.add(css8);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
 
 <br><br>
-<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">ECONOMIC AND FINANCIAL COMMITTEE</h1></center>
+<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">EMERGENCY SESSION OF THE EUROPEAN UNION</h1></center>
 
 
 <section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}">
@@ -6289,9 +6298,9 @@ var init__9 = __esm({
   ".svelte-kit/output/server/nodes/7.js"() {
     init_eseu_svelte();
     index9 = 7;
-    file10 = "pages/eseu.svelte-912074b7.js";
-    imports9 = ["pages/eseu.svelte-912074b7.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-6f004635.js"];
-    stylesheets9 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file10 = "pages/eseu.svelte-64b46616.js";
+    imports9 = ["pages/eseu.svelte-64b46616.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js", "chunks/Image-3906a4cd.js"];
+    stylesheets9 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -6300,24 +6309,25 @@ var hrc_svelte_exports = {};
 __export(hrc_svelte_exports, {
   default: () => Hrc
 });
-var css7, Hrc;
+var css9, Hrc;
 var init_hrc_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/hrc.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Image_04d3bd9c();
-    css7 = {
+    init_Blog_0f12eb70();
+    init_Image_7a426ed3();
+    css9 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Hrc = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css7);
+      $$result.css.add(css9);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
 
 <br><br>
-<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">ECONOMIC AND FINANCIAL COMMITTEE</h1></center>
+<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">UNITED NATIONS HUMAN RIGHTS COMMISION</h1></center>
 
 
 <section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}">
@@ -6364,9 +6374,9 @@ var init__10 = __esm({
   ".svelte-kit/output/server/nodes/8.js"() {
     init_hrc_svelte();
     index10 = 8;
-    file11 = "pages/hrc.svelte-3b857e66.js";
-    imports10 = ["pages/hrc.svelte-3b857e66.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-6f004635.js"];
-    stylesheets10 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file11 = "pages/hrc.svelte-517ea1db.js";
+    imports10 = ["pages/hrc.svelte-517ea1db.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js", "chunks/Image-3906a4cd.js"];
+    stylesheets10 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -6375,24 +6385,25 @@ var icr_svelte_exports = {};
 __export(icr_svelte_exports, {
   default: () => Icr
 });
-var css8, Icr;
+var css10, Icr;
 var init_icr_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/icr.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Image_04d3bd9c();
-    css8 = {
+    init_Blog_0f12eb70();
+    init_Image_7a426ed3();
+    css10 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Icr = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css8);
+      $$result.css.add(css10);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
 
 <br><br>
-<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">ECONOMIC AND FINANCIAL COMMITTEE</h1></center>
+<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">IMPERIAL COUNCIL OF THE MIGHTY RUSSIAN EMPIRE</h1></center>
 
 
 <section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}">
@@ -6439,9 +6450,9 @@ var init__11 = __esm({
   ".svelte-kit/output/server/nodes/9.js"() {
     init_icr_svelte();
     index11 = 9;
-    file12 = "pages/icr.svelte-8743239d.js";
-    imports11 = ["pages/icr.svelte-8743239d.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-6f004635.js"];
-    stylesheets11 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file12 = "pages/icr.svelte-e8de6b8c.js";
+    imports11 = ["pages/icr.svelte-e8de6b8c.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js", "chunks/Image-3906a4cd.js"];
+    stylesheets11 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -6450,24 +6461,25 @@ var interpol_svelte_exports = {};
 __export(interpol_svelte_exports, {
   default: () => Interpol
 });
-var css9, Interpol;
+var css11, Interpol;
 var init_interpol_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/interpol.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Image_04d3bd9c();
-    css9 = {
+    init_Blog_0f12eb70();
+    init_Image_7a426ed3();
+    css11 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Interpol = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css9);
+      $$result.css.add(css11);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
 
 <br><br>
-<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">ECONOMIC AND FINANCIAL COMMITTEE</h1></center>
+<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">INTERNATIONAL CRIMINAL POLICE ORGANISATION</h1></center>
 
 
 <section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}">
@@ -6514,51 +6526,40 @@ var init__12 = __esm({
   ".svelte-kit/output/server/nodes/11.js"() {
     init_interpol_svelte();
     index12 = 11;
-    file13 = "pages/interpol.svelte-2d8f24e8.js";
-    imports12 = ["pages/interpol.svelte-2d8f24e8.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-6f004635.js"];
-    stylesheets12 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file13 = "pages/interpol.svelte-6997fae2.js";
+    imports12 = ["pages/interpol.svelte-6997fae2.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js", "chunks/Image-3906a4cd.js"];
+    stylesheets12 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
-// .svelte-kit/output/server/entries/pages/journalists.svelte.js
-var journalists_svelte_exports = {};
-__export(journalists_svelte_exports, {
-  default: () => Journalists
+// .svelte-kit/output/server/entries/pages/journalism.svelte.js
+var journalism_svelte_exports = {};
+__export(journalism_svelte_exports, {
+  default: () => Journalism
 });
-var css10, Journalists;
-var init_journalists_svelte = __esm({
-  ".svelte-kit/output/server/entries/pages/journalists.svelte.js"() {
+var css12, Journalism;
+var init_journalism_svelte = __esm({
+  ".svelte-kit/output/server/entries/pages/journalism.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    css10 = {
+    init_Blog_0f12eb70();
+    css12 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
-    Journalists = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css10);
+    Journalism = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css12);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 <br><br>
-<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">Blog</h1></center>
+<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">Articles</h1></center>
 
 
-<section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}"><div class="${"py-8 flex flex-wrap md:flex-nowrap"}"><div class="${"md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col"}"><span class="${"font-semibold title-font text-gray-700"}">CATEGORY</span>
-            <span class="${"mt-1 text-gray-500 text-sm"}">12 Jun 2019</span></div>
-          <div class="${"md:flex-grow"}"><h2 class="${"text-2xl font-medium text-gray-900 title-font mb-2"}">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-            <p class="${"leading-relaxed"}">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-            <a class="${"text-sky-900 inline-flex items-center mt-4"}">Learn More
-              <svg class="${"w-4 h-4 ml-2"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}" stroke-width="${"2"}" fill="${"none"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}"><path d="${"M5 12h14"}"></path><path d="${"M12 5l7 7-7 7"}"></path></svg></a></div></div>
-        <div class="${"py-8 flex flex-wrap md:flex-nowrap"}"><div class="${"md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col"}"><span class="${"font-semibold title-font text-gray-700"}">CATEGORY</span>
-            <span class="${"mt-1 text-gray-500 text-sm"}">12 Jun 2019</span></div>
-          <div class="${"md:flex-grow"}"><h2 class="${"text-2xl font-medium text-gray-900 title-font mb-2"}">Meditation bushwick direct trade taxidermy shaman</h2>
-            <p class="${"leading-relaxed"}">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-            <a class="${"text-sky-900 inline-flex items-center mt-4"}">Learn More
-              <svg class="${"w-4 h-4 ml-2"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}" stroke-width="${"2"}" fill="${"none"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}"><path d="${"M5 12h14"}"></path><path d="${"M12 5l7 7-7 7"}"></path></svg></a></div></div>
-        <div class="${"py-8 flex flex-wrap md:flex-nowrap"}"><div class="${"md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col"}"><span class="${"font-semibold title-font text-gray-700"}">CATEGORY</span>
-            <span class="${"text-sm text-gray-500"}">12 Jun 2019</span></div>
-          <div class="${"md:flex-grow"}"><h2 class="${"text-2xl font-medium text-gray-900 title-font mb-2"}">Woke master cleanse drinking vinegar salvia</h2>
-            <p class="${"leading-relaxed"}">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-            <a class="${"text-sky-900 inline-flex items-center mt-4"}">Learn More
-              <svg class="${"w-4 h-4 ml-2"}" viewBox="${"0 0 24 24"}" stroke="${"currentColor"}" stroke-width="${"2"}" fill="${"none"}" stroke-linecap="${"round"}" stroke-linejoin="${"round"}"><path d="${"M5 12h14"}"></path><path d="${"M12 5l7 7-7 7"}"></path></svg></a></div></div></div></div></section>`;
+
+<section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}">
+      
+      ${validate_component(Blog, "Blog").$$render($$result, {}, {}, {})}
+      ${validate_component(Blog, "Blog").$$render($$result, {}, {}, {})}
+      ${validate_component(Blog, "Blog").$$render($$result, {}, {}, {})}</div></div></section>`;
     });
   }
 });
@@ -6569,59 +6570,49 @@ __export(__exports13, {
   file: () => file14,
   imports: () => imports13,
   index: () => index13,
-  module: () => journalists_svelte_exports,
+  module: () => journalism_svelte_exports,
   stylesheets: () => stylesheets13
 });
 var index13, file14, imports13, stylesheets13;
 var init__13 = __esm({
   ".svelte-kit/output/server/nodes/12.js"() {
-    init_journalists_svelte();
+    init_journalism_svelte();
     index13 = 12;
-    file14 = "pages/journalists.svelte-608d6622.js";
-    imports13 = ["pages/journalists.svelte-608d6622.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js"];
-    stylesheets13 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file14 = "pages/journalism.svelte-7c61b1e3.js";
+    imports13 = ["pages/journalism.svelte-7c61b1e3.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js"];
+    stylesheets13 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
-// .svelte-kit/output/server/entries/pages/photographers.svelte.js
-var photographers_svelte_exports = {};
-__export(photographers_svelte_exports, {
-  default: () => Photographers
+// .svelte-kit/output/server/entries/pages/photographs.svelte.js
+var photographs_svelte_exports = {};
+__export(photographs_svelte_exports, {
+  default: () => Photographs
 });
-var Photographers;
-var init_photographers_svelte = __esm({
-  ".svelte-kit/output/server/entries/pages/photographers.svelte.js"() {
+var css13, Photographs;
+var init_photographs_svelte = __esm({
+  ".svelte-kit/output/server/entries/pages/photographs.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    Photographers = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+    init_Image_7a426ed3();
+    css13 = {
+      code: "body{background-image:url('/bge.jpg')}",
+      map: null
+    };
+    Photographs = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      $$result.css.add(css13);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
+ 
 
-<section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-col text-center w-full mb-20"}"><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">Master Cleanse Reliac Heirloom</h1>
-      <p class="${"lg:w-2/3 mx-auto leading-relaxed text-base"}">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven&#39;t heard of them man bun deep jianbing selfies heirloom.</p></div>
-    <div class="${"flex flex-wrap -m-4"}"><div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/600x360"}">
-          <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-            <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Shooting Stars</h1>
-            <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-      <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/601x361"}">
-          <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-            <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">The Catalyzer</h1>
-            <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-      <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/603x363"}">
-          <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-            <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">The 400 Blows</h1>
-            <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-      <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/602x362"}">
-          <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-            <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Neptune</h1>
-            <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-      <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/605x365"}">
-          <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-            <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Holden Caulfield</h1>
-            <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div>
-      <div class="${"lg:w-1/3 sm:w-1/2 p-4"}"><div class="${"flex relative"}"><img alt="${"gallery"}" class="${"absolute inset-0 w-full h-full object-cover object-center"}" src="${"https://dummyimage.com/606x366"}">
-          <div class="${"px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"}"><h2 class="${"tracking-widest text-sm title-font font-medium text-sky-900 mb-1"}">THE SUBTITLE</h2>
-            <h1 class="${"title-font text-lg font-medium text-gray-900 mb-3"}">Alper Kamu</h1>
-            <p class="${"leading-relaxed"}">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p></div></div></div></div></div></section>`;
+  <section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-col text-center w-full mb-20"}"><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 "}">Photographs</h1></div>
+      <div class="${"flex flex-wrap -m-4"}">
+        
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}
+        ${validate_component(Image, "Image").$$render($$result, {}, {}, {})}</div></div></section>`;
     });
   }
 });
@@ -6632,17 +6623,17 @@ __export(__exports14, {
   file: () => file15,
   imports: () => imports14,
   index: () => index14,
-  module: () => photographers_svelte_exports,
+  module: () => photographs_svelte_exports,
   stylesheets: () => stylesheets14
 });
 var index14, file15, imports14, stylesheets14;
 var init__14 = __esm({
   ".svelte-kit/output/server/nodes/13.js"() {
-    init_photographers_svelte();
+    init_photographs_svelte();
     index14 = 13;
-    file15 = "pages/photographers.svelte-ea0e21de.js";
-    imports14 = ["pages/photographers.svelte-ea0e21de.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js"];
-    stylesheets14 = ["assets/Navbar-a31798b0.css"];
+    file15 = "pages/photographs.svelte-4d08c39a.js";
+    imports14 = ["pages/photographs.svelte-4d08c39a.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-3906a4cd.js"];
+    stylesheets14 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -6651,24 +6642,25 @@ var rs_svelte_exports = {};
 __export(rs_svelte_exports, {
   default: () => Rs
 });
-var css11, Rs;
+var css14, Rs;
 var init_rs_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/rs.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Image_04d3bd9c();
-    css11 = {
+    init_Blog_0f12eb70();
+    init_Image_7a426ed3();
+    css14 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Rs = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css11);
+      $$result.css.add(css14);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
 
 <br><br>
-<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">ECONOMIC AND FINANCIAL COMMITTEE</h1></center>
+<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">THE ROMAN SENATE</h1></center>
 
 
 <section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}">
@@ -6715,9 +6707,9 @@ var init__15 = __esm({
   ".svelte-kit/output/server/nodes/14.js"() {
     init_rs_svelte();
     index15 = 14;
-    file16 = "pages/rs.svelte-ec9447ce.js";
-    imports15 = ["pages/rs.svelte-ec9447ce.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-6f004635.js"];
-    stylesheets15 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file16 = "pages/rs.svelte-9ce57828.js";
+    imports15 = ["pages/rs.svelte-9ce57828.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js", "chunks/Image-3906a4cd.js"];
+    stylesheets15 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -6726,24 +6718,25 @@ var scf_svelte_exports = {};
 __export(scf_svelte_exports, {
   default: () => Scf
 });
-var css12, Scf;
+var css15, Scf;
 var init_scf_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/scf.svelte.js"() {
     init_index_3a325815();
     init_Navbar_cf4a361f();
-    init_Image_04d3bd9c();
-    css12 = {
+    init_Blog_0f12eb70();
+    init_Image_7a426ed3();
+    css15 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Scf = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css12);
+      $$result.css.add(css15);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
 
 <br><br>
-<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">ECONOMIC AND FINANCIAL COMMITTEE</h1></center>
+<center><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">STANDING COMMITTEE ON FRANCE</h1></center>
 
 
 <section class="${"text-gray-600 body-font overflow-hidden"}"><div class="${"container px-5 py-20 mx-auto"}"><div class="${"-my-8 divide-y-2 divide-gray-100"}">
@@ -6790,9 +6783,9 @@ var init__16 = __esm({
   ".svelte-kit/output/server/nodes/15.js"() {
     init_scf_svelte();
     index16 = 15;
-    file17 = "pages/scf.svelte-6784f11b.js";
-    imports16 = ["pages/scf.svelte-6784f11b.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Image-6f004635.js"];
-    stylesheets16 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file17 = "pages/scf.svelte-5becb93d.js";
+    imports16 = ["pages/scf.svelte-5becb93d.js", "chunks/index-fb74600a.js", "chunks/Navbar-0bd994f3.js", "chunks/Blog-d4f12f7c.js", "chunks/Image-3906a4cd.js"];
+    stylesheets16 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -6801,11 +6794,11 @@ var team_svelte_exports = {};
 __export(team_svelte_exports, {
   default: () => Team
 });
-var Team_block, css13, Team;
+var Team_block, css16, Team;
 var init_team_svelte = __esm({
   ".svelte-kit/output/server/entries/pages/team.svelte.js"() {
     init_index_3a325815();
-    init_Footer_8be1e75a();
+    init_Footer_2e84526c();
     init_Navbar_cf4a361f();
     Team_block = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { name = "Rick Astley" } = $$props;
@@ -6821,20 +6814,19 @@ var init_team_svelte = __esm({
     <div class="${"flex-grow"}"><h2 class="${"text-sky-900 title-font font-medium"}">${escape(name)}</h2>
       <p class="${"text-gray-500"}">${escape(position)}</p></div></div></div>`;
     });
-    css13 = {
+    css16 = {
       code: "body{background-image:url('/bge.jpg')}",
       map: null
     };
     Team = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      $$result.css.add(css13);
+      $$result.css.add(css16);
       return `${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
 
 
 
-<section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-col text-center w-full mb-20"}"><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">Our Team</h1>
-      <p class="${"lg:w-2/3 mx-auto leading-relaxed text-base"}">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven&#39;t heard of them.</p></div>
+<section class="${"text-gray-600 body-font"}"><div class="${"container px-5 py-24 mx-auto"}"><div class="${"flex flex-col text-center w-full mb-20"}"><h1 class="${"sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"}">Our Team</h1></div>
     <div class="${"flex flex-wrap -m-2"}">${validate_component(Team_block, "TeamBlock").$$render($$result, {
         name: "Gouri Mehra",
         position: "Editor-in-Chief",
@@ -6935,9 +6927,9 @@ var init__17 = __esm({
   ".svelte-kit/output/server/nodes/16.js"() {
     init_team_svelte();
     index17 = 16;
-    file18 = "pages/team.svelte-40161282.js";
-    imports17 = ["pages/team.svelte-40161282.js", "chunks/index-fb74600a.js", "chunks/Footer-dec73bbe.js", "chunks/Navbar-0bd994f3.js"];
-    stylesheets17 = ["assets/pages/interpol.svelte-6c44ce50.css", "assets/Navbar-a31798b0.css"];
+    file18 = "pages/team.svelte-b05ace6f.js";
+    imports17 = ["pages/team.svelte-b05ace6f.js", "chunks/index-fb74600a.js", "chunks/Footer-c7b19d37.js", "chunks/Navbar-0bd994f3.js"];
+    stylesheets17 = ["assets/pages/cartoons.svelte-11667222.css", "assets/Footer-d3e02dd2.css", "assets/Navbar-a31798b0.css"];
   }
 });
 
@@ -17161,10 +17153,10 @@ var Server = class {
 // .svelte-kit/vercel-tmp/manifest.js
 var manifest = {
   appDir: "_app",
-  assets: /* @__PURE__ */ new Set(["Logos/Committees banner SMUN.png", "Logos/ECOFIN.png", "Logos/ESEU.png", "Logos/ICR.png", "Logos/INTERPOL.png", "Logos/Roman Senate.png", "Logos/SCF.png", "Logos/SMUN Tenth edition banner.png", "Logos/UNCA.png", "Logos/UNHRC.png", "Logos/school.png", "Logos/smun 10th edition.png", "Logos/smun logo.png", "Team/amritaansh.webp", "Team/aniket.webp", "Team/arnav.webp", "Team/chirag.webp", "Team/gouri.webp", "Team/isha.webp", "Team/mansi.webp", "Team/navya.webp", "Team/simar.webp", "bge.jfif", "bge.jpg", "cartoonist.jpeg", "dummy.png", "favicon.png", "graph-orange.jpg", "graph-paper-orange-white-grid-2880x1800-c2-ffffff-ff8c00-l2-5-145-a-0-f-20.svg", "graph.jpg", "journalism.jpeg", "photography.jpeg", "unca.png"]),
+  assets: /* @__PURE__ */ new Set(["Logos/Committees banner SMUN.png", "Logos/ECOFIN.png", "Logos/ESEU.png", "Logos/ICR.png", "Logos/INTERPOL.png", "Logos/Roman Senate.png", "Logos/SCF.png", "Logos/SMUN Tenth edition banner.png", "Logos/UNCA.png", "Logos/UNHRC.png", "Logos/school.png", "Logos/smun 10th edition.png", "Logos/smun logo.png", "Team/amritaansh.webp", "Team/aniket.webp", "Team/arnav.webp", "Team/chirag.webp", "Team/gouri.webp", "Team/isha.webp", "Team/mansi.webp", "Team/navya.webp", "Team/simar.webp", "about_us.jfif", "about_us.png", "bge.jfif", "bge.jpg", "cartoonist.jpeg", "dummy.png", "favicon.png", "graph-orange.jpg", "graph-paper-orange-white-grid-2880x1800-c2-ffffff-ff8c00-l2-5-145-a-0-f-20.svg", "graph.jpg", "journalism.jpeg", "photography.jpeg", "unca.png"]),
   mimeTypes: { ".png": "image/png", ".webp": "image/webp", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".svg": "image/svg+xml" },
   _: {
-    entry: { "file": "start-5862563a.js", "imports": ["start-5862563a.js", "chunks/index-fb74600a.js", "chunks/preload-helper-60cab3ee.js"], "stylesheets": [] },
+    entry: { "file": "start-0fe0236e.js", "imports": ["start-0fe0236e.js", "chunks/index-fb74600a.js", "chunks/preload-helper-60cab3ee.js"], "stylesheets": [] },
     nodes: [
       () => Promise.resolve().then(() => (init__(), __exports)),
       () => Promise.resolve().then(() => (init__2(), __exports2)),
@@ -17209,11 +17201,11 @@ var manifest = {
       },
       {
         type: "page",
-        id: "cartoonists",
-        pattern: /^\/cartoonists\/?$/,
+        id: "cartoons",
+        pattern: /^\/cartoons\/?$/,
         names: [],
         types: [],
-        path: "/cartoonists",
+        path: "/cartoons",
         shadow: null,
         a: [0, 4],
         b: [1]
@@ -17297,22 +17289,22 @@ var manifest = {
       },
       {
         type: "page",
-        id: "journalists",
-        pattern: /^\/journalists\/?$/,
+        id: "journalism",
+        pattern: /^\/journalism\/?$/,
         names: [],
         types: [],
-        path: "/journalists",
+        path: "/journalism",
         shadow: null,
         a: [0, 12],
         b: [1]
       },
       {
         type: "page",
-        id: "photographers",
-        pattern: /^\/photographers\/?$/,
+        id: "photographs",
+        pattern: /^\/photographs\/?$/,
         names: [],
         types: [],
-        path: "/photographers",
+        path: "/photographs",
         shadow: null,
         a: [0, 13],
         b: [1]

@@ -22,7 +22,7 @@ import Footer from '../lib/Components/Footer.svelte';
             </center>
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Economic and Financial Committee</h2>
-          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="/ecofin">
             <button class="flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Read More</button>
           </a>
@@ -34,7 +34,7 @@ import Footer from '../lib/Components/Footer.svelte';
             </center>
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">The Roman Senate</h2>
-          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="/rs">
             <button class="flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Read More</button>
           </a>
@@ -54,7 +54,7 @@ import Footer from '../lib/Components/Footer.svelte';
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">International Criminal Police
             Organisation</h2>
-          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="/interpol">
             <button class="flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Read More</button>
           </a>        </div>
@@ -66,7 +66,7 @@ import Footer from '../lib/Components/Footer.svelte';
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Standing Committee on
             Finance</h2>
-          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="/scf">
             <button class="flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Read More</button>
           </a>        </div>
@@ -85,7 +85,7 @@ import Footer from '../lib/Components/Footer.svelte';
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Emergency Session of the
             European Union</h2>
-          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="/eseu">
             <button class="flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Read More</button>
           </a>        </div>
@@ -97,7 +97,7 @@ import Footer from '../lib/Components/Footer.svelte';
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Imperial Council of the Mighty
             Russian Empire</h2>
-          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="/icr">
             <button class="flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Read More</button>
           </a>        </div>
@@ -116,7 +116,7 @@ import Footer from '../lib/Components/Footer.svelte';
           </div>
           <h2 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">United Nations Human 
             Rights Council</h2>
-          <p class="leading-relaxed text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
+ 
           <a href="/hrc">
             <button class="flex mx-auto mt-6 text-white bg-sky-900 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">Read More</button>
           </a>        </div>
